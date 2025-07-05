@@ -22,3 +22,32 @@ A simple Python CLI application to manage your monthly salary using popular budg
 ```bash
 git clone https://github.com/your-username/salary-manager.git
 cd salary-manager
+py 
+```
+
+##Project Structure
+
+```bash
+salary-manager/
+├── main.py                  # Entry point
+├── manager/
+│   ├── salary_manager.py    # App controller class
+│   ├── user_interface.py    # Handles CLI input/output
+│   ├── ratio_loader.py      # Loads budget ratio from JSON
+│   ├── calculator.py        # Handles calculation logic
+│   └── __init__.py
+└── data/
+    └── ratios.json          # Default ratio definitions
+```
+
+## Future Plans
+
+ - Custom ratio input
+ - Data saving (history log)
+ - GUI version with Tkinter
+ - Expense tracker per category
+
+ 
+Author
+Created by samez
+🔗 GitHub: samezid
